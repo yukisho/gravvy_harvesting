@@ -10,7 +10,7 @@ redemrp_inventory (https://github.com/RedEM-RP/redemrp_inventory)
 3) Start server
 
 Add the following to your config.lua in redemrp_inventory under ``Config.Items``
-I've also included the images I used for each item in the ``images`` folder
+I've also included the images I used for each item in the ``items`` folder
 To add these images put them in ``redemrp_inventory -> html -> items``
 
 ```
