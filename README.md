@@ -3,7 +3,7 @@ RedM Crop Harvesting
 
 Requires
 PolyZone (https://github.com/mkafrin/PolyZone)
-redemrp_inventory (https://github.com/RedEM-RP/redemrp_inventory)
+redemrp_inventory version 2 (https://github.com/RedEM-RP/redemrp_inventory)
 
 1) Add ``gravvy_harvesting`` to your resources folder
 2) Add ``ensure gravvy_harvesting`` to your server.cfg
@@ -13,14 +13,17 @@ Add the following to your config.lua in redemrp_inventory under ``Config.Items``
 I've also included the images I used for each item in the ``items`` folder
 To add these images put them in ``redemrp_inventory -> html -> items``
 
+The location to begin harvesting is at the Braithwaite Manor in the surrounding fields
+I did not include the fields to the north of the manor
+
 ```
 ["wheat"] =
   {
       label = "Wheat",
-      description = "?????????",
+      description = "Put it in your mouth like the cool guys",
       weight = 0.05,
       canBeDropped = true,
-      canBeUsed = false,
+      canBeUsed = true,
       requireLvl = 0,
       limit = 64,
       imgsrc = "items/wheat.png",
@@ -29,7 +32,7 @@ To add these images put them in ``redemrp_inventory -> html -> items``
 ["apple"] =
   {
       label = "Apple",
-      description = "?????????",
+      description = "An apple a day...",
       weight = 0.02,
       canBeDropped = true,
       canBeUsed = true,
@@ -41,7 +44,7 @@ To add these images put them in ``redemrp_inventory -> html -> items``
 ["corn"] =
   {
       label = "Corn",
-      description = "?????????",
+      description = "Roasted preferred",
       weight = 0.5,
       canBeDropped = true,
       canBeUsed = true,
@@ -53,7 +56,7 @@ To add these images put them in ``redemrp_inventory -> html -> items``
 ["cotton"] =
   {
       label = "Cotton",
-      description = "?????????",
+      description = "Soft and fluffy",
       weight = 0.05,
       canBeDropped = true,
       canBeUsed = true,
