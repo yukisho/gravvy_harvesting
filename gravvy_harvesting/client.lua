@@ -1,7 +1,4 @@
-local EatPrompt
-local CollectPrompt
 local active = false
-local eat = false
 local type = nil
 local min = nil
 local max = nil
