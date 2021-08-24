@@ -2,7 +2,7 @@
 RedM Crop Harvesting
 
 Requires
-PolyZone (https://github.com/mkafrin/PolyZone)
+PolyZone (https://github.com/mkafrin/PolyZone)  
 redemrp_inventory version 2 (https://github.com/RedEM-RP/redemrp_inventory)
 
 1) Add ``gravvy_harvesting`` to your resources folder
