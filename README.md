@@ -9,7 +9,7 @@ redemrp_inventory (https://github.com/RedEM-RP/redemrp_inventory)
 2) Add ``ensure gravvy_harvesting`` to your server.cfg
 3) Start server
 
-Add the following to your config.lua in redemrp_inventory
+Add the following to your config.lua in redemrp_inventory under ``Config.Items``
 
 ```
 ["wheat"] =
