@@ -9,11 +9,11 @@ redemrp_inventory version 2 (https://github.com/RedEM-RP/redemrp_inventory)
 2) Add ``ensure gravvy_harvesting`` to your server.cfg
 3) Start server
 
-Add the following to your config.lua in redemrp_inventory under ``Config.Items``
-I've also included the images I used for each item in the ``items`` folder
-To add these images put them in ``redemrp_inventory -> html -> items``
+Add the following to your config.lua in redemrp_inventory under ``Config.Items``  
+I've also included the images I used for each item in the ``items`` folder  
+To add these images put them in ``redemrp_inventory -> html -> items``  
 
-The location to begin harvesting is at the Braithwaite Manor in the surrounding fields
+The location to begin harvesting is at the Braithwaite Manor in the surrounding fields  
 I did not include the fields to the north of the manor
 
 ```
